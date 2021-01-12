@@ -1,4 +1,5 @@
 import os
+os.system("pip3 install Amino.py")
 os.system("clear")
 import amino
 client=amino.Client()
@@ -19,5 +20,5 @@ chatId=client.get_from_code(chatl).objectId
 subclient=amino.SubClient(comId=comId, profile=client.profile)
 
 subclient.kick(userId=p ,chatId=chatId, allowRejoin=True)
-print ("Done")
+print ("Done ")
 os._exit(1)
