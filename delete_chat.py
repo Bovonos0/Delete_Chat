@@ -1,5 +1,4 @@
 import os
-os.system("pip3 install Amino.py")
 os.system("clear")
 import amino
 client=amino.Client()
